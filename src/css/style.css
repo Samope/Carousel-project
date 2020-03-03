@@ -1,0 +1,99 @@
+body{
+    overflow-x: hidden;
+}
+
+.navbar .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+
+}
+.nav-item.active{
+    border-left:#444 3px solid;
+}
+.carousel-item{
+    height: 450px;
+}
+.carousel-image-1{
+    background: url(../img/black-suv-in-between-purple-flower-fields-754595.jpg);
+    background-size: cover;
+}
+.carousel-image-2{
+    background: url(../img//hd_5b973d303fa3cea709bc8eb91dc9e90e.jpg);
+    background-size: cover;
+}
+.carousel-image-3{
+    background: url(../img/WP_99_3100-2018-12-07.jpg~2.jpeg);
+    background-size: cover;
+}
+.fa{
+    font-size: 55px;
+}
+#home-heading{
+    position: relative;
+    min-height: 200px;
+    background: url(../img/WP_99_938682_1509475268.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
+.dark-overlay{
+   position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#video-play{
+    position: relative;
+    min-height: 200px;
+    background: url(../img/acoustic-amplifier-artist-audio-114820.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -300px;
+    text-align: center;
+    color: #fff;
+}
+#video-play a{
+    color: #fff; 
+}
+
+footer#main-footer{
+    background:#000;
+    color: #fff;
+}
+
+#page-header{
+    height: 200px;
+    background: url(../img/WP_99_3100-2018-12-07.jpg~2.jpeg);
+    background-position: 0 -300px;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+#about img{
+    margin-top: -50px;
+}
+#faq .card{
+    border: #444;
+}
+#faq .card-body, .card-header{
+    background: #333;
+}
+ #faq a{
+     color: #fff;
+     text-decoration: none;
+ }
+#foto img{
+    filter: grayscale(100%);
+    border-radius: 30px;
+}
+#foto img:hover{
+    filter: grayscale(0);
+    transition: all .9s;
+    transform: scale(1.01);
+}
